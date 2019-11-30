@@ -4,7 +4,6 @@ var formNewMsg = document.querySelector('.chat-form');
 var formNewMsgText = formNewMsg.querySelector('.chat-form-input');
 var msgTemplate = document.querySelector('#message-template').content;
 var newMsg = msgTemplate.querySelector('.chat-message');
-console.log(newMsg);
 var sendButton = formNewMsg.querySelector ('.chat-form-button');
 
 sendButton.addEventListener('click', function(evt){
